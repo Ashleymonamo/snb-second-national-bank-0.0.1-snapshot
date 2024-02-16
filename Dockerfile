@@ -5,7 +5,7 @@ FROM openjdk:21
 WORKDIR /app
 
 # Add the packaged Spring Boot application JAR file to the container
-ADD target/*.jar SNB-Second-National-Bank-0.0.1-SNAPSHOT.jar
+ADD target/*.jar snb-second-national-bank-0.0.1-snapshot.jar
 
 # Specify the entry point for the container
-ENTRYPOINT ["java", "-jar", "SNB-Second-National-Bank-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "snb-second-national-bank-0.0.1-snapshot.jar"]
